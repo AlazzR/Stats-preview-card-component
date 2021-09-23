@@ -8,9 +8,10 @@ body{
 
 #stats-container{
   display: flex;
-  height: 320px;
   flex-direction: row;
-  margin: 13%;
+  height: 450px;
+  margin: 15%;
+  padding: 0px;
   background-color: hsl(244, 38%, 16%);
   padding: 0px;
   border-radius: 5px;
@@ -19,11 +20,18 @@ body{
 
 #stats-container img{
   height: inherit;
+  width: 100%;
   order: 1;
   filter: hue-rotate(10deg) saturate(64%);
   -webkit-filter: grayscale(80%) brightness(60%) sepia(90%) hue-rotate(-130deg) saturate(300%) contrast(0.8);
   background-color: rgba(169, 91, 212, 0.60); 
   border-radius: 0px 5px 5px 0px; 
+}
+
+#heading{
+  font-weight: "bold";
+  font-size: 40px;
+  color: white;
 }
 
 #stats{
@@ -34,15 +42,14 @@ body{
   display: grid;
   margin-top: 20%;
   grid-template-columns: auto auto auto;
-  font-size: 11px;
   color: hsla(0, 0%, 100%, 0.6);
   text-transform: uppercase;
-  font-size: 8px;
+  font-size: 10px;
 
 }
 
 .value{
-  font-size: 13px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
   margin-bottom: 2px;
@@ -63,9 +70,13 @@ body{
   }
   #stats{
     text-align: center;
+    font-size: 10px;
   }
   #companies-stats{
     text-align: center;
     grid-template-columns: auto;
+  }
+  #heading{
+    font-size: 30px;
   }
 }

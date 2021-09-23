@@ -8,12 +8,12 @@ const App: React.FC = ()=>{
       <div id="stats-container">
         <img src="./image-header-desktop.jpg"></img>
         <div id="stats">
-          <p style={{fontWeight: "bold", fontSize: "25px", color: "white"}}>
+          <p id="heading">
             Get <span style={{color: "hsl(277, 64%, 61%)"}}>insights</span> that help your business grow.
           </p>
-          <p style={{color: "hsla(0, 0%, 100%, 0.6)", fontSize: "10px", lineHeight: "14px"}}>
-              Discover the benefits of data analytics and make<br/>
-              better decisions regarding revenue, customer<br/>
+          <p style={{color: "hsla(0, 0%, 100%, 0.6)", fontSize: "14px", lineHeight: "14px"}}>
+              Discover the benefits of data analytics and make
+              better decisions regarding revenue, customer
               experience, and overall efficiency.
           </p>
           <div id="companies-stats">
