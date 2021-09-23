@@ -6,7 +6,7 @@ const App: React.FC = ()=>{
   return(
     <div id="App">
       <div id="stats-container">
-        <img src="./image-header-desktop.jpg"></img>
+        <img src={process.env.PUBLIC_URL + "/image-header-desktop.jpg"}></img>
         <div id="stats">
           <p id="heading">
             Get <span style={{color: "hsl(277, 64%, 61%)"}}>insights</span> that help your business grow.

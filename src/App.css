@@ -15,6 +15,10 @@ body{
   background-color: hsl(244, 38%, 16%);
   padding: 0px;
   border-radius: 5px;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  animation: slide 3s forwards;
+  -webkit-animation: slide 3s forwards;
 }
 /* hsl(277, 64, 61%) */
 
@@ -79,4 +83,9 @@ body{
   #heading{
     font-size: 30px;
   }
+}
+
+@keyframes slide {
+  0% {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+  100% {transform: translateX(0%); -webkit-transform: translateX(0%);}
 }
